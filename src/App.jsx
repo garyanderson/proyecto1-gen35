@@ -19,14 +19,17 @@ function App() {
   }
   console.log(`url("/fondo${imageSelected}.png")`)
   return (
-    <div className='app' style={objStyle}>
+    <div className='app'  style={objStyle}>
       <h1 className='app__title'>Galleta de la fortuna</h1>
-      <article className='app__card'>
-        <PhraseCard phraseRandom={phraseRandom} />
-        <BtnPhrase 
+      <div>
+      <BtnPhrase 
         setPhraseRandom={setPhraseRandom} 
         setImageSelected={setImageSelected}
       />
+      </div>
+      <article className='app__card corner'>
+        <PhraseCard phraseRandom={phraseRandom} />
+        
       </article>
       
     </div>

@@ -1,8 +1,9 @@
 .card__phrase {
+    padding-left: 50px;
     font-weight: 300;
     line-height: 1.5;
     font-size: 1.1rem;
-    color: white;
+    color: black;
 }
 
 .card__phrase::after {
